@@ -1,0 +1,60 @@
+* {
+    border: 2px dotted blue;
+}
+body {
+  margin: 0;
+}
+div {
+    border-radius: 5px; 
+    margin: 10px 15px 10px 5px; 
+    padding: 20px; 
+    background-color: #dae6ec; 
+} 
+#header { 
+    height: 40px; 
+    width: 100%; 
+    background-color:#dae6ec; 
+    border:4px solid #ff5500;
+    position: fixed;
+    z-index:1; 
+    top:0; 
+    right: 5px;
+    left: 5px; 
+    padding: 5px; 
+} 
+#name {
+    float: left; 
+}
+#contact { 
+    float: right; 
+}
+
+#left { 
+    height: 400px; 
+    width: 10px; 
+    background-color: Purple;
+    position: relative; 
+    float:left; 
+    top: 180px; 
+}/*height:560px;
+    width:200px;
+    border:4px solid #00bbff;
+    float:left;
+    margin-top:60px;
+    position:relative;*/
+
+#right {
+    height: 400px; 
+    width: 400px; 
+    background-color: #FAFAD2;
+    position: relative; 
+    float:right; 
+    top: 180px;     
+}
+
+#footer {
+    height: 20%; 
+    width: 95%; 
+    clear: both; 
+} 
+    
